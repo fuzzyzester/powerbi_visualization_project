@@ -1,48 +1,107 @@
-# **Power BI Visualization Project**
+# Freddy's BI-Cycle Power BI Dashboard Project
 
-## **Overview**
-This project tackles the challenge of transforming raw business data into actionable insights. By building interactive Power BI dashboards, it empowers decision-makers to analyze key KPIs such as sales performance, profit margins, and customer behavior. The dashboards are designed to enable data-driven strategies by leveraging dynamic visuals, drill-down capabilities, and time-based trends.
+This Power BI project presents a comprehensive and interactive Business Intelligence (BI) solution for **Freddy's BI-Cycle**, focusing on five key areas: **Sales**, **Sales Over Time**, **HR**, **Inventory**, and **Finance**.
 
----
-
-## **Objectives**
-- **Identify Opportunities**: Pinpoint top-performing products, regions, and customer segments.
-- **Track Performance**: Visualize sales and margin trends over time to monitor progress against goals.
-- **Empower Exploration**: Provide intuitive drill-downs to uncover insights at granular levels.
+The dashboards provide a 360-degree view of Freddy's operational and strategic performance using real-time insights, clean visualizations, and actionable KPIs.
 
 ---
 
-## **Key Features**
+## Project Overview
 
-### **Sales Performance Dashboard**
-- **Insightful Metrics**: Tracks revenue, profit margin, and total sales across time (YTD, R12, and monthly trends).
-- **Custom Filters**: Allows filtering by regions, product categories, and time periods to enable tailored analyses.
-- **Business Impact**: Improved decision-making by identifying sales peaks and underperforming areas.
+**Goal**  
+To enable data-driven decision-making for stakeholders by providing insights into:
 
-### **Customer Segmentation**
-- **Behavioral Analysis**: Visualizes customer demographics, purchasing habits, and segmentation.
-- **Strategic Targeting**: Helps businesses align marketing efforts with customer profiles.
-
-### **Dynamic Drill-Downs**
-- **Seamless Exploration**: Navigate from high-level overviews to granular details with interactive features.
-- **Trend Identification**: Spot patterns within categories and regions for better forecasting.
+- Revenue & margin trends  
+- Inventory performance  
+- Financial budget vs actuals  
+- Employee structure and turnover  
+- Global and product-level sales analysis  
 
 ---
 
-## **Tools and Technologies**
-- **Power BI**: Built and designed dashboards for visualization and interaction.
-- **Data Sources**: Leveraged real-world datasets to simulate business scenarios.
+## Dashboards Breakdown
+
+### 1. Sales Insight
+
+- Total Revenue, Orders, Cost, and Margin over years  
+- Product Category breakdown  
+- Margin % by product  
+- Sales trends using R12, YTD, and Total Revenue  
+
+**Screenshot:**  
+![Sales Insight](https://github.com/fuzzyzester/powerbi_visualization_project/blob/main/Sales%20Insight.png)
 
 ---
 
-## **Results and Impact**
-- Enabled faster and more accurate decision-making by reducing manual analysis time by **50%**.
-- Delivered actionable insights, identifying **top 5 products and regions** contributing to **80% of sales**.
-- Provided stakeholders with a deeper understanding of **customer behavior**, leading to improved segmentation strategies.
+### 2. Sales Over Time
+
+- Daily Averages for Sales, Orders, Cost, and Margin  
+- Revenue by:
+  - Geography (Map View)
+  - Country & Continent
+  - Color Segmentation  
+- Currency toggle (USD, EUR, etc.)
+
+**Screenshot:**  
+![Sales Over Time](https://github.com/fuzzyzester/powerbi_visualization_project/blob/main/Sales%20Overtime.png)
 
 ---
 
-## **How to Use**
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/fuzzyzester/powerbi_visualization_project.git
+### 3. HR Dashboard
+
+- Active Employee count, turnover, and average tenure  
+- Organization hierarchy visualization  
+- Department filter and employee search  
+- Employee details: age, tenure, job title  
+- Revenue by geography for workforce insights  
+
+**Screenshot:**  
+![HR Dashboard](https://github.com/fuzzyzester/powerbi_visualization_project/blob/main/HR%20Dashboard.png)
+
+---
+
+### 4. Product Inventory
+
+- Inventory KPIs:
+  - Total Inventory Value  
+  - Unique Products  
+  - Average Inventory Value  
+  - Inventory Turnover Rate  
+- Stock-out Orders by Product Category  
+- Year-over-Year Inventory comparison  
+- Top 5 Products by Inventory Value  
+
+**Screenshot:**  
+![Product Inventory](https://github.com/fuzzyzester/powerbi_visualization_project/blob/main/Product%20Inventory.png)
+
+---
+
+### 5. Finance (Chart of Accounts)
+
+- Budget vs Actuals across GL accounts  
+- Monthly and YTD difference tracking  
+- Drill-down into revenue, cost, and OPEX  
+- Trial Balance with variance calculations  
+
+**Screenshot:**  
+![Finance Dashboard](https://github.com/fuzzyzester/powerbi_visualization_project/blob/main/ChartofAccounts.png)
+
+---
+
+## Tools Used
+
+- Power BI Desktop  
+- DAX for KPIs and custom measures  
+- Power Query for data transformation  
+- Card visuals, pie charts, bar graphs, matrix tables, and maps  
+
+---
+
+## Key Highlights
+
+- Drill-down capabilities from summary KPIs to granular data  
+- Custom slicers for Time, Currency, Products, and Departments  
+- Yearly trend insights via R12 and YTD metrics  
+- Performance monitoring of top and underperforming products  
+- Employee organizational structure visualization  
+- Finance dashboard resembling a real-world chart of accounts 
