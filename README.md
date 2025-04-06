@@ -17,7 +17,28 @@ To enable data-driven decision-making for stakeholders by providing insights int
 - Employee structure and turnover  
 - Global and product-level sales analysis  
 
----
+## What I Did
+
+This project follows a complete Business Intelligence workflow using Power BI:
+
+1. **Data Extraction**  
+   - Extracted datasets from a **remote SQL-based database** using direct query and SQL scripts.
+   - Exported and saved the relevant data tables into **CSV format** for external processing.
+
+2. **Data Transformation**  
+   - Cleaned and transformed the raw datasets using **Power Query Editor**.
+   - Standardized date formats, removed duplicates, split complex columns, and handled nulls.
+
+3. **Data Modeling**  
+   - Designed and implemented a **Star Schema** in Power BI:
+     - Created fact tables (e.g., sales, financials) and dimension tables (e.g., product, date, employee).
+     - Defined relationships between tables to support accurate slicing and dicing.
+     - Created calculated columns and DAX measures to enable advanced analysis (e.g., YTD, R12, margins, budget variance).
+
+4. **Dashboard Building & Visualization**  
+   - Built multiple interactive dashboards with slicers, charts, tables, and maps.
+   - Implemented filters for time, currency, product, department, and geography.
+   - Designed dashboards with end users in mind for clarity and usability.
 
 ## Dashboards Breakdown
 
